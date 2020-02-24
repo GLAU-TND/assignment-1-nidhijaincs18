@@ -19,4 +19,12 @@ public class LinkedList1 {
         }
     }
 
+    public boolean isEmpty() {
+        boolean response = false;
+        if (first == null) {
+            response = true;
+        }
+        return response;
+    }
+
 }
