@@ -1,5 +1,8 @@
 package node;
 
-public class Node {
+import person.Person;
 
+public class Node {
+    private Person value;
+    private Node next;
 }
