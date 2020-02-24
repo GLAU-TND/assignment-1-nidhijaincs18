@@ -70,5 +70,15 @@ public class Tasks {
                 System.out.println("Invalid email address ! Enter again");
             }
         }
+
+    }
+
+    public void viewcontact(LinkedList1 linkedList1) {
+        System.out.println("---Here are all your contacts---");
+        if (!linkedList1.isEmpty()) {
+            linkedList1.display();
+        } else {
+            System.out.println("NO results found");
+        }
     }
 }
