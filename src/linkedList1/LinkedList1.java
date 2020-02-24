@@ -37,5 +37,12 @@ public class LinkedList1 {
         return response;
     }
 
+    public boolean exist(String firstName) {
+        if (indexOf(firstName) != -1) {
+            return true;
+        }
+        return false;
+    }
+
 
 }
